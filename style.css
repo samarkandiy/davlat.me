@@ -1,0 +1,155 @@
+h1, h2, h3, ul, p{
+	margin: 0;
+	padding: 0;
+}
+#header {
+	background-color: #35424a;
+	border-bottom: 3px solid coral;
+}
+#header h1 {
+	color: #fff;
+	font-family: sans-serif;
+	padding:  15px 0;
+	display: inline-block;
+}
+#header .logo {
+	color: coral;
+}
+.container {
+	width: 70%;
+	margin: auto;
+}
+.navbar {
+	float: right;
+}
+.navbar li {
+	display: inline;
+}
+.navbar li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 25px 15px;
+	display: inline-block;
+}
+.navbar li a:hover {
+	color: coral;
+}
+#banner {
+	background-image: url(Light-Colored-Wooden-Background.jpg);
+	background-position: center right;
+    height: 60vh;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+}
+#banner h1 {
+	font-size: 56px;
+	margin-bottom: 25px;
+	padding-top: 150px;
+
+}
+#newsletter {
+	background-color: #35424a; 
+	color: #fff;
+	font-family: sans-serif;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+#newsletter .left {
+	float: left;
+}
+#newsletter .right {
+	float: right;
+}
+button:hover {
+	color: #fff;
+	background-color: coral;
+}
+#newsletter input {
+	padding: 5px;
+}
+button {
+    padding: 6px;
+    border: none;
+    margin-left: 0;
+}
+#courses {
+	padding: 30px 0;
+}
+.box {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	
+}
+.box img {
+	width: 130px;
+}
+.clr {
+	clear: both;
+}
+#footer {
+	padding: 40px 0;
+	text-align: center;
+	background-color: coral;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.main-content {
+	width: 65%;
+	float: left;
+}
+.sidebar {
+	width: 30%;
+	float: right;
+}
+.bg-dark {
+	background-color: #35424a;
+	color: #fff;
+	padding: 10px;
+}
+#about-us {
+	margin: 40px 0;
+	font-family: sans-serif;
+}
+.servis-box
+{
+	padding: 30px;
+	margin-bottom: 15px;
+	background-color: #e5e5e5;
+	border: 1px solid #55555555;
+
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.form-input, textarea {
+	width: 100%;
+	padding: 10px 0;
+}
+.active {
+	color: coral !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
