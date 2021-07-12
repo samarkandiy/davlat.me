@@ -1,155 +1,353 @@
-h1, h2, h3, ul, p{
-	margin: 0;
-	padding: 0;
-}
-#header {
-	background-color: #35424a;
-	border-bottom: 3px solid coral;
-}
-#header h1 {
-	color: #fff;
-	font-family: sans-serif;
-	padding:  15px 0;
-	display: inline-block;
-}
-#header .logo {
-	color: coral;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 .container {
-	width: 70%;
-	margin: auto;
+    width: 1200px;
+    margin: 0 auto;
 }
-.navbar {
-	float: right;
+#home {
+    background-color: #333;
 }
-.navbar li {
-	display: inline;
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.navbar li a {
-	text-decoration: none;
-	color: #fff;
-	font-family: sans-serif;
-	padding: 25px 15px;
-	display: inline-block;
-}
-.navbar li a:hover {
-	color: coral;
-}
-#banner {
-	background-image: url(Light-Colored-Wooden-Background.jpg);
-	background-position: center right;
-    height: 60vh;
-    text-align: center;
+#navbar h1 {
     color: #fff;
-    font-family: sans-serif;
-    padding-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
 }
-#banner h1 {
-	font-size: 56px;
-	margin-bottom: 25px;
-	padding-top: 150px;
-
+.topnav .ser1:hover {
+    color: coral;
 }
-#newsletter {
-	background-color: #35424a; 
-	color: #fff;
-	font-family: sans-serif;
-	padding: 20px 0;
-	display: inline-block;
-	width: 100%;
+.topnav .ser2:hover {
+    color: coral;
 }
-#newsletter .left {
-	float: left;
+.topnav .ser3:hover {
+    color: coral;
 }
-#newsletter .right {
-	float: right;
+.topnav .ser4:hover {
+    color: coral;
 }
-button:hover {
-	color: #fff;
-	background-color: coral;
+.topnav .ser {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
 }
-#newsletter input {
-	padding: 5px;
+.menyu h1 {
+    font-weight: 500;
+    font-size: 48pt;
+    padding-top: 250px;
+    padding-right: 300px;
+    padding-bottom: 50px;
 }
-button {
-    padding: 6px;
-    border: none;
-    margin-left: 0;
+.menyu_name {
+    font-weight: 700;
 }
-#courses {
-	padding: 30px 0;
+.hire a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    background: #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
 }
-.box {
-	width: 33.3%;
-	float: left;
-	text-align: center;
-	font-family: sans-serif;
-	
+.menyu_about a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #999;
+    margin-bottom: 300px;
 }
-.box img {
-	width: 130px;
+.menyu_buttons {
+    display: flex;
 }
-.clr {
-	clear: both;
+.hire a:hover {
+    border: 1px solid #999;
+    background: #fff;
+    color: #999;
 }
-#footer {
-	padding: 40px 0;
-	text-align: center;
-	background-color: coral;
-	color: #fff;
-	margin-top: 40px;
-	margin-bottom: 100px;
+.menyu_about a:hover {
+    border: 1px solid #999;
+    background: #fff;
+    color: #999;
 }
-.main-content {
-	width: 65%;
-	float: left;
+#menyu {
+    padding-bottom: 150px;
 }
-.sidebar {
-	width: 30%;
-	float: right;
+.about_line1 {
+    border: 1px solid #333;
+    margin: auto;
+    width: 600px;
 }
-.bg-dark {
-	background-color: #35424a;
-	color: #fff;
-	padding: 10px;
+.Personal_Information_h1 {
+    text-align: center;
+    font-size: 40pt;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
-#about-us {
-	margin: 40px 0;
-	font-family: sans-serif;
+.information_name {
+    display: flex;
+    padding-bottom: 20px;
 }
-.servis-box
-{
-	padding: 30px;
-	margin-bottom: 15px;
-	background-color: #e5e5e5;
-	border: 1px solid #55555555;
-
+.information_name .h1{
+    padding-left: 350px;
+    padding-top: 20px;
+}    
+.information_name .h2{
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 200px;
+} 
+.information_age {
+    display: flex;
+    padding-bottom: 20px;
 }
-label {
-	display: block;
-	margin-bottom: 5px;
-	margin-top: 5px;
+.information_age .h1{
+    padding-left: 350px;
+}    
+.information_age .h2{
+    font-weight: 400;
+    padding-left: 218px;
+} 
+.information_email .h1{
+    padding-left: 350px;
 }
-.form-input, textarea {
-	width: 100%;
-	padding: 10px 0;
+.information_email .h2{
+    font-weight: 400;
+    padding-left: 200px;
 }
-.active {
-	color: coral !important;
+.information_email {
+    display: flex;
+    padding-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.information_phone .h1{
+    padding-left: 350px;
+}
+.information_phone .h2{
+    font-weight: 400;
+    padding-left: 190px;
+}
+.information_phone {
+    display: flex;
+    padding-bottom: 20px;
+}
+.information_address .h1{
+    padding-left: 350px;
+}
+.information_address .h2{
+    font-weight: 400;
+    padding-left: 168px;
+}
+.information_address {
+    display: flex;
+    padding-bottom: 20px;
+}
+.information_github .h1{
+    padding-left: 350px;
+}
+.information_github .h2{
+    font-weight: 400;
+    padding-left: 187px;
+}
+.information_github {
+    display: flex;
+}
+#About {
+    background: #F4F4F4F4;
+    padding-bottom: 250px;
+}
+.portfolio1 img{
+    width: 500px;
+    border: 1px solid #f4f4f4f4;
+    margin-left: 70px;
+}
+.portfolio2 img{
+    width: 500px;
+    border: 1px solid #f4f4f4f4;
+    margin-right: 70px;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_h1 {
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.portfolio_line1 {
+    border: 1px solid #333;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#Portfolio {
+    padding-bottom: 200px;
+}
+.contact_block2 h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.contact_block {
+    background: #000;
+}
+.contact_block2 .logo {
+    max-width: fit-content;
+    margin: auto;
+}
+.contact_img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact_block2 p {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contacts_h1 {
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.contact_line1 {
+    border: 1px solid #333;
+    width: 330px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.logo2 a {
+    color: #000;
+} 
+.logo2 {
+    max-width: fit-content;
+    margin: auto;
+}
+@media (max-width:767px ) {
+    .portfolio {
+        display: block;
+    } 
+    .portfolio img {
+        margin: 0;
+        width: 330px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menyu h1 {
+        padding-right: 0;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+    #navbar h1 {
+        font-size: 20px;
+    }
+    .container {
+        width: 330px;
+    }
+    .information_name .h1 , .information_name .h2{
+        padding: 0;
+        padding-top: 30px;
+    }
+    .information_email .h1 , .information_email .h2 {
+        padding: 0;
+    }
+    .information_age .h1 , .information_age .h2 {
+        padding: 0;
+    } 
+    .information_phone .h1 , .information_phone .h2 {
+        padding: 0;
+    }
+    .information_address .h1 , .information_address .h2 {
+        padding: 0;
+    }
+    .information_github .h1 , .information_github .h2 {
+        padding: 0;
+    }
+    .information_name .h1 {
+        padding-right: 80px;
+    }
+    .information_email {
+        display: block;
+    }
+    .information_phone {
+        display: block;
+    }
+    .information_age .h1 {
+        padding-right: 99px;
+    }
+    .information_address .h1 {
+        padding-right: 55px;
+    }
+    .information_github .h1 {
+        padding-right: 73px;
+    }
+    #About {
+        padding-bottom: 50px;
+    }
+    .topnav a {
+        font-size: 8px;
+    }
+    #menyu {
+        padding-bottom: 70px;
+    }
+    #menyu h1 {
+        font-size: 40px;
+    } 
+    .hire a , .menyu_about a{
+        font-size: 12px;
+    }
+    .Personal_Information_h1 {
+        font-size: 40px;
+    }
+    .portfolio_h1 {
+        font-size: 40px;
+    }
+    .portfolio1 {
+        margin-bottom: 20px;
+    }
+    #Portfolio {
+        padding-bottom: 50px;
+    }
+    .contacts_h1 {
+        font-size: 40px;
+    }
+    .contact_line1 {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+    .contact_h1 h1 {
+        font-size: 25px;
+    }
+    .contact_block2 p {
+        padding-top: 70px;
+    }
+    .about_line1 {
+        width: 330px;
+    }
+    }
