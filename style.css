@@ -252,7 +252,7 @@
     display: none;
 }
 
-#contact1 {
+#Contact{
     background-color: #000000;
    
 }
@@ -413,14 +413,16 @@
     }
     .button_03 {
         padding: 10px 55px;
-        width: 70px;
+        border: none;
         margin: auto;
         margin-top: 50px;
         border-radius: 50px;
         background-color: #fff;
         margin-top: 35x;
-        
+        justify-content: center;
+        text-align: center;
     }
+    
     .button_03:hover {
         background-color: #333;
         color: #fff;
