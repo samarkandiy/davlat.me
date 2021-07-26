@@ -251,6 +251,11 @@
 .icon {
     display: none;
 }
+
+#contact1 {
+    background-color: #000000;
+   
+}
 @media (max-width:767px ) {
     .portfolio {
         display: block;
@@ -356,6 +361,73 @@
     .icon {
         color: #fff;
     }
+}
+
+    
+    .conta {
+      
+        background-color: #000000;
+    }
+    #contact1 {
+        width: 330px;
+        margin: auto;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .img-loc {
+        width: 12px;
+        height: 15px;
+    }
+    p {
+        margin: 0;
+    }
+    .img-con {
+        width: 15px;
+        height: 12px;
+    }
+    .img-tel {
+        width: 13px;
+        height: 15px;
+    }
+    .get-in {
+        padding-top: 75px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .contacts {
+        display: flex;
+    }
+    .in-name {
+        border-bottom: 2px solid #222;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #000000;
+        color: #727272;
+        width: 330px;
+        padding-bottom: 10px;
+        margin-top: 30px;
+    }
+    .button_03 {
+        padding: 10px 55px;
+        width: 70px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 50px;
+        background-color: #fff;
+        margin-top: 35x;
+        
+    }
+    .button_03:hover {
+        background-color: #333;
+        color: #fff;
+
+    }
+    .get-in {
+        color: #fff;
     }
     @media screen and (max-width: 600px) {
         .topnav a {display: none;}
@@ -380,3 +452,4 @@
           padding-bottom: 10px;
         }
       }
+
